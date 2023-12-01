@@ -1,6 +1,7 @@
 @login
 Feature: Login
 
+  @resetBrowser
   @login-baseflow
   Scenario: TC001 - Login (Positive)
       Given the main page loaded

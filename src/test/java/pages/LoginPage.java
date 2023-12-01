@@ -13,7 +13,7 @@ public class LoginPage extends BasePage {
     private By alertDanger = By.cssSelector(".alert.alert-danger.mt-3");
 
     public void open(){
-        driver.get(url);
+        visitPage(url);
     }
 
     public String validatePageLogin(){
