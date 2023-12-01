@@ -48,7 +48,7 @@ public class RunCucumberTest {
         reportBuilder.setReportDirectory("target/cucumber/report-builder/");
         reportBuilder.setReportFileName("index");
         reportBuilder.setReportColor(Color.PURPLE); // http://materializecss.com/color.html
-        reportBuilder.setReportTitle("Teste Ecore");
+        reportBuilder.setReportTitle("Test Ecore");
         reportBuilder.setAdditionalInfo("Date", dataReport);
         reportBuilder.build(cucumberJsonReports);
     }
