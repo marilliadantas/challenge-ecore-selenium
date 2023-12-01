@@ -6,6 +6,7 @@ import pages.LoginPage;
 import runner.base_class.BaseSteps;
 
 public class LoginSteps extends BaseSteps {
+
     LoginPage page = new LoginPage();
 
     @Given("the main page loaded")
