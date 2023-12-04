@@ -61,4 +61,4 @@ jobs:
         uses: actions/deploy-pages@v2
 
       - name: Link Report
-        run: echo 'https://marilliadantas.github.io/challenge-ecore'
+        run: echo 'https://marilliadantas.github.io/challenge-ecore-selenium'
